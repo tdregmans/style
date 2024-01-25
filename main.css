@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: 'Courier New', Courier, monospace, Georgia;
+
+    overflow-y: scroll;
+}
+
+main {
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+    
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.errorcode {
+    color: red;
+    font-size: 50px;
+    margin: inherit;
+}
+
+.scroll-buffer {
+    background-color: inherit;
+    position: relative;
+    padding: 20px;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+    
+    border-radius: 20px;
+
+    height: 200px;
+    z-index: 1;
+}
+
+main h1 {
+    color: var(--header-color);
+}
+
+hr {
+    border-color: var(--background-color);
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+    border: white 5px solid;
+}
+
+.icon:hover {
+    border: var(--third-accent-color) 5px solid;
+}
+
+.icon img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+    margin: 0 auto;
+}
+
+.icon span {
+    text-align: center;
+    display: block;
+    font-size: large;
+    font-weight: 700;
+    color: var(--second-accent-color);
+}
+
+.icon:hover span {
+    color: var(--third-accent-color);
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+a {
+    color: var(--third-accent-color);
+}
+
+a:hover {
+    color: var(--second-accent-color);
+}
