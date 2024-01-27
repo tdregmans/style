@@ -19,6 +19,18 @@ main {
     z-index: 3;
 }
 
+nav {
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    width: 10%;
+    left: 5%;
+    top: 20%;
+    
+    border-radius: 20px;
+    z-index: 3;
+}
+
 .errorcode {
     color: red;
     font-size: 50px;
