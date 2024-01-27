@@ -21,14 +21,34 @@ main {
 
 nav {
     background-color: white;
-    position: relative;
+    position: fixed;
     padding: 20px;
     width: 10%;
     left: 5%;
-    top: 20%;
+    top: 240px;
     
     border-radius: 20px;
     z-index: 3;
+}
+
+.button {
+    display: table;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: var(--third-accent-color);
+    text-decoration: none;
+    color: var(--header-color);
+}
+
+.button.sub {
+    margin-left: 20px;
+    background-color: var(--second-accent-color);
+}
+
+.button:hover {
+    background-color: var(--first-accent-color);
+    color: var(--puce);
 }
 
 .errorcode {
@@ -43,7 +63,7 @@ nav {
     padding: 20px;
     width: 60%;
     left: 20%;
-    top: 20%;
+    top: 200px;
     
     border-radius: 20px;
 
